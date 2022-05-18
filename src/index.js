@@ -3,9 +3,9 @@ import png from './assets/1.png'
 
  const div = document.getElementById('app')
 
- div.innerHTML=`
- <img src="${png}">
- `
+//  div.innerHTML=`
+//  <img src="${png}">
+//  `
 //用import括号去加载一个文件，然后会得到一个promise，promise.then成功之后做xxx失败之后做xxx
  const button = document.createElement('button')
  button.innerText = '懒加载'
